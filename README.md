@@ -1,26 +1,26 @@
 > [!IMPORTANT]  
-> próximamente nagi v3 actualizado fecha de publicación 2026/2/12
+> próximamente HINATA-BOT-MD actualizado fecha de publicación 2026/2/12
 
 
 <!-- Banner animado -->
 <p align="center">
-  <img src="https://ibb.co/PGPtMWmx" alt="HInatabot-banner" width="100%"/>
+  <img src="https://i.ibb.co/PZnGrw0T/HINATA.jpg" alt="HINATA.jpg" width="100%"/>
 </p>
 
-<h1 align="center">⚡ NagiBotV2 - WhatsApp Multi-Device Bot</h1>
+<h1 align="center">⚡ HINATA-BOT - WhatsApp Multi-Device Bot</h1>
 
 <p align="center">
   <b>El bot más versátil para WhatsApp, con comandos avanzados, administración de grupos, sistema de niveles, juegos, IA y más.</b><br>
-  Desarrollado por <a href="https://github.com/santiyt65">@El-brayan502</a> con soporte de <a href="https://github.com/santiyt65">@thecarlos19</a>
+  Desarrollado por <a href="https://github.com/santiyt65">@santiyt65</a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/El-brayan502/NagiBotV2?style=for-the-badge&color=yellow" />
-  <img src="https://img.shields.io/github/forks/El-brayan502/NagiBotV2?style=for-the-badge&color=orange" />
-  <img src="https://img.shields.io/github/issues/El-brayan502/NagiBotV2?style=for-the-badge&color=blue" />
-  <img src="https://komarev.com/ghpvc/?username=El-brayan502&label=Vistas&style=for-the-badge&color=brightgreen" />
+  <img src="https://img.shields.io/github/stars/santiyt65/HINATA-BOT-MD?style=for-the-badge&color=yellow" />
+  <img src="https://img.shields.io/github/forks/santiyt65/HINATA-BOT-MD?style=for-the-badge&color=orange" />
+  <img src="https://img.shields.io/github/issues/santiyt65/HINATA-BOT-MD?style=for-the-badge&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=santiyt65&label=Vistas&style=for-the-badge&color=brightgreen" />
 </p>
 
 ---
@@ -48,7 +48,7 @@ git clone https://github.com/santiyt65/HINATA-BOT-MD
 
 ```
 ```bash
-cd NagiBotV2
+cd HINATA-BOT-MD
 ```
 ```bash
 npm install
@@ -59,13 +59,11 @@ npm start
 ```
 
 
-## `COLABORADORES DEL BOT` 
-<a href="https://github.com/thecarlos19"><img src="https://github.com/thecarlos19.png" width="200" height="200" alt="thecarlos19"/></a>
+## `PROPIETARIO Y EDITOR DEL BOT`
 
 <div align="center">
-  <h1 align="center">EDITOR Y PROPIETARIO DEL BOT</h1>
+  <h1 align="center">PROPIETARIO Y EDITOR DEL BOT</h1>
 
 <a href="https://github.com/santiyt65"><img src="https://github.com/santiyt65.png" width="300" height="300" alt="santiyt65"/></a>
 
-`HINATA-BOT-MD por santiyt65 `
-  ### `NICOLAS SANILO`
+`HINATA-BOT por santiyt65`
