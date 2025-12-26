@@ -1,3 +1,8 @@
+// Mensaje de activación en consola
+console.log('\x1b[36m%s\x1b[0m', '==============================');
+console.log('\x1b[32m%s\x1b[0m', '   HINATA-BOT-MD ACTIVADO');
+console.log('\x1b[33m%s\x1b[0m', '   CREADOR: santiyt65');
+console.log('\x1b[36m%s\x1b[0m', '==============================');
 let handler = async (m, { conn, usedPrefix }) => {
   let name = await conn.getName(m.sender)
   let number = m.sender.split('@')[0]
@@ -23,7 +28,7 @@ Selecciona una opción con los botones de abajo:`.trim()
   await conn.sendMessage(m.chat, {
     image: { url: imagen },
     caption: info,
-    footer: 'Bot de Brayan 😼🍁',
+    footer: 'Bot de Santiyt65 😼🍁',
     buttons: [
       { buttonId: `${usedPrefix}help`, buttonText: { displayText: '📜 Menú Principal' }, type: 1 },
       { buttonId: `${usedPrefix}grupos`, buttonText: { displayText: '🎋 Grupos' }, type: 1 },

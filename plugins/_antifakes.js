@@ -1,4 +1,10 @@
 import db from '../lib/database.js'
+
+// Mensaje de activación en consola
+console.log('\x1b[36m%s\x1b[0m', '==============================');
+console.log('\x1b[32m%s\x1b[0m', '   HINATA-BOT-MD ACTIVADO');
+console.log('\x1b[33m%s\x1b[0m', '   CREADOR: santiyt65');
+console.log('\x1b[36m%s\x1b[0m', '==============================');
 let handler = m => m
 handler.before = async function (m, {conn, isAdmin, isBotAdmin} ) {
 if (!m.isGroup) return !1

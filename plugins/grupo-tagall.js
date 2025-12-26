@@ -1,3 +1,8 @@
+// Mensaje de activación en consola
+console.log('\x1b[36m%s\x1b[0m', '==============================');
+console.log('\x1b[32m%s\x1b[0m', '   HINATA-BOT-MD ACTIVADO');
+console.log('\x1b[33m%s\x1b[0m', '   CREADOR: santiyt65');
+console.log('\x1b[36m%s\x1b[0m', '==============================');
 /* 
 - tagall By Angel-OFC  
 - etiqueta en un grupo a todos
