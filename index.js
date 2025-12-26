@@ -1,4 +1,13 @@
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
+
+// Verificar e instalar automáticamente cfonts si no está instalado
+import { execSync } from 'child_process';
+try {
+	await import('cfonts');
+} catch (e) {
+	console.log('\x1b[33mInstalando dependencia faltante: cfonts...\x1b[0m');
+	execSync('npm install cfonts', { stdio: 'inherit' });
+}
 import './config.js'
 import { setupMaster, fork } from 'cluster'
 import { watchFile, unwatchFile } from 'fs'
