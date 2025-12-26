@@ -4,14 +4,14 @@
 
 <!-- Banner animado -->
 <p align="center">
-  <img src="https://files.catbox.moe/4v07bp.jpg" alt="NagiBot Banner" width="100%"/>
+  <img src="https://ibb.co/PGPtMWmx" alt="HInatabot-banner" width="100%"/>
 </p>
 
 <h1 align="center">⚡ NagiBotV2 - WhatsApp Multi-Device Bot</h1>
 
 <p align="center">
   <b>El bot más versátil para WhatsApp, con comandos avanzados, administración de grupos, sistema de niveles, juegos, IA y más.</b><br>
-  Desarrollado por <a href="https://github.com/El-brayan502">@El-brayan502</a> con soporte de <a href="https://github.com/thecarlos19">@thecarlos19</a>
+  Desarrollado por <a href="https://github.com/santiyt65">@El-brayan502</a> con soporte de <a href="https://github.com/santiyt65">@thecarlos19</a>
 </p>
 
 ---
@@ -44,7 +44,7 @@ termux-setup-storage
 ```
 
 ```bash
-git clone https://github.com/El-brayan502/NagiBotV3
+git clone https://github.com/santiyt65/HINATA-BOT-MD
 
 ```
 ```bash
@@ -65,7 +65,7 @@ npm start
 <div align="center">
   <h1 align="center">EDITOR Y PROPIETARIO DEL BOT</h1>
 
-<a href="https://github.com/El-brayan502"><img src="https://github.com/El-brayan502.png" width="300" height="300" alt="El-brayan502"/></a>
+<a href="https://github.com/santiyt65"><img src="https://github.com/santiyt65.png" width="300" height="300" alt="santiyt65"/></a>
 
-`NagiBotV3_ By Brayan X Clarita `
-  ### `Brayan Mosco`
+`HINATA-BOT-MD por santiyt65 `
+  ### `NICOLAS SANILO`
