@@ -46,12 +46,12 @@ global.NagiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '🎄 NᴀɢɪBᴏᴛ V³ 🎋'
-global.botname = '𝙉𝙖𝙜𝙞𝘽𝙤𝙩-𝙫²'
-global.wm = '𝗡𝗮𝗴𝗶𝗕𝗼𝘁-𝗠𝗗'
-global.author = 'NᴀɢɪBᴏᴛ X Bʀᴀʏᴀɴ ʏ Cʟᴀʀɪᴛᴀ'
-global.dev = '୧ㅤ 𝘉𝘳𝘢𝘺𝘢𝘯 𝘹 𝘤𝘭𝘢𝘳𝘪𝘵áㅤ🎋'
-global.textbot = 'NᴀɢɪBᴏᴛ X Bʀᴀʏᴀɴ ʏ Cʟᴀʀɪᴛᴀ'
+global.packname = '🎄 HINATA-BOT-MD 🎋'
+global.botname = 'HINATA-BOT-MD'
+global.wm = 'HINATA-BOT-MD'
+global.author = 'HINATA-BOT-MD'
+global.dev = '୧ㅤ HINATA-BOT-MDㅤ🎋'
+global.textbot = 'HINATA-BOT-MD'
 global.etiqueta = '@ᖴᗩᑎTOᗰ ᙭ᗪ'
 global.titulowm = 'Whatsapp Multi Device';
 global.titulowm2 = '𝘚𝘶𝘱𝘦𝘳 𝘉𝘰𝘵 𝘋𝘦 𝘞𝘩𝘢𝘵𝘴𝘢𝘱𝘱'
@@ -79,13 +79,13 @@ global.photoSity = [catalogo]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.gp1 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
+global.gp1 = 'https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L'
 global.comunidad1 = 'https://chat.whatsapp.com/DeJvBuS7QgB3Ybp1BZulWL'
-global.channel = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
-global.channel2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
+global.channel = 'https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L'
+global.channel2 = 'https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L'
 global.md = 'https://github.com/El-brayan502/NagiBotV3'
 global.correo = 'brayanfree881@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029Vb4cQJu2f3EB7BS7o11M';
+global.cn ='https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 

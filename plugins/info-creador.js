@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix }) => {
   let creatorNumber = '50231458537'
   let creatorName = 'Bʀᴀʏᴀɴ xD😼🍁'
-  let channelLink = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
+  let channelLink = 'https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L'
 
   let vcard = `
 BEGIN:VCARD

@@ -7,15 +7,15 @@ let handler = async (m, { conn }) => {
       externalAdReply: {
         title: "Color Aleatorio",
         body: "¿Adivinaste el color?",
-        sourceUrl: "https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W", // Aquí pon tu canal o grupo
-        thumbnailUrl: "https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W",
+        sourceUrl: "https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L", // Aquí pon tu canal o grupo
+        thumbnailUrl: "https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L",
         mediaType: 1,
         renderLargerThumbnail: true,
         showAdAttribution: true,
         externalAdReply: {
           title: "TOCA AQUI", // <- Aquí está el cambio
           body: "",
-          sourceUrl: "https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W",
+          sourceUrl: "https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L",
           thumbnailUrl: "https://qu.ax/vntfb.jpg",
           mediaType: 1,
           renderLargerThumbnail: true,

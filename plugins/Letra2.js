@@ -2,7 +2,7 @@
  * [ *FEATURE SUNDANESE* ]
  * Created By Jose
  * 
- * Channel: https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S
+ * Channel: https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L
  **/
 
 const latinToSundanese = {

@@ -9,10 +9,10 @@ const handler = async (m, { conn, usedPrefix, command }) => {
 https://chat.whatsapp.com/C7B0xV6SZLvEQ6sBfEZCSD
 
 2️⃣  *canal principal*  
-https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W
+https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L
 
 3️⃣  *Testers & Beta*  
-https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W
+https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L
 
 ⚠️ Respeta las normas de cada grupo. NagiBotV3 ama la paz 🎋
 

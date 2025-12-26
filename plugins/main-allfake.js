@@ -74,8 +74,8 @@ global.waitttt = '⚽️ 𝙀𝙣𝙫𝙞𝙖𝙣𝙙𝙤 𝙩𝙚𝙣 𝙥𝙖�
 
 //Enlaces
 var grupo = 'https://chat.whatsapp.com/I2g1kNUSxf75HmZp5Nr3Ua'
-var canal = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'  
-var canal2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
+var canal = 'https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L'  
+var canal2 = 'https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L'
 var git = 'https://github.com/El-brayan502/NagiBotV2.git' 
 var github = 'https://github.com/El-brayab502' 
 let correo = 'brayanphonkponk@gamail.com'

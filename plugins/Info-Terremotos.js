@@ -2,7 +2,7 @@
 - Earthquake Alert By Jose XrL 
 - Powered By Team Dark Core 
 - Free Codes Titans 
-- https://whatsapp.com/channel/0029ValMlRS6buMFL9d0iQ0S
+- https://whatsapp.com/channel/0029VajKFjlJJhzU8fvTPn2L
 */
 
 // *🌎 [ Earthquake Information ]*
