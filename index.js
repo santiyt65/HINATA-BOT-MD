@@ -1,17 +1,10 @@
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 
-// Verificar e instalar automáticamente cfonts si no está instalado
-import { execSync } from 'child_process';
-try {
-	await import('cfonts');
-} catch (e) {
-	console.log('\x1b[33mInstalando dependencia faltante: cfonts...\x1b[0m');
-	execSync('npm install cfonts', { stdio: 'inherit' });
-}
+// ...cfonts eliminado...
 import './config.js'
 import { setupMaster, fork } from 'cluster'
 import { watchFile, unwatchFile } from 'fs'
-import cfonts from 'cfonts'
+// import cfonts from 'cfonts' // eliminado
 import {createRequire} from 'module'
 import {fileURLToPath, pathToFileURL} from 'url'
 import {platform} from 'process'
@@ -48,15 +41,10 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 //const yuw = dirname(fileURLToPath(import.meta.url))
 //let require = createRequire(megu)
-let { say } = cfonts
 
-console.log(chalk.bold.redBright(`\n⇏𝗦𝗘 𝗘𝗦𝗧𝗔 𝗜𝗡𝗜𝗖𝗜𝗔𝗡𝗗𝗢 𝗠𝗔𝗚𝗜𝗕𝗢𝗧 𝗘𝗦𝗣𝗘𝗥𝗘 ⇍\n`))
 
-say('NAGIBOT', {
-font: 'block',
-align: 'center',
-colors: ['magentaBright']
-})
+console.log(chalk.bold.redBright(`\n⇏ 𝗦𝗘 𝗘𝗦𝗧𝗔 𝗜𝗡𝗜𝗖𝗜𝗔𝗡𝗗𝗢 𝗡𝗔𝗚𝗜𝗕𝗢𝗧 𝗘𝗦𝗣𝗘𝗥𝗘 ⇍\n`))
+console.log('HINATA-BOT-MD');
 
 say(`NagiBotV2 by Brayan330`, {
 font: 'console',
