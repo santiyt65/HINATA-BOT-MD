@@ -8,52 +8,28 @@ import { watchFile, unwatchFile } from 'fs'
 import {createRequire} from 'module'
 import {fileURLToPath, pathToFileURL} from 'url'
 import {platform} from 'process'
-import * as ws from 'ws'
+// import * as ws from 'ws' // eliminado
 import fs, {readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileSync, rmSync, watch} from 'fs'
-import yargs from 'yargs';
-import {spawn} from 'child_process'
-import lodash from 'lodash'
-import { nakanoJadiBot } from './plugins/jadibot-serbot.js';
-import chalk from 'chalk'
-import syntaxerror from 'syntax-error'
-import {tmpdir} from 'os'
-import {format} from 'util'
-import boxen from 'boxen'
-import P from 'pino'
-import pino from 'pino'
-import Pino from 'pino'
-import path, { join, dirname } from 'path'
-import {Boom} from '@hapi/boom'
-import {makeWASocket, protoType, serialize} from './lib/simple.js'
-import {Low, JSONFile} from 'lowdb'
-import {mongoDB, mongoDBV2} from './lib/mongoDB.js'
-import store from './lib/store.js'
-const {proto} = (await import('@whiskeysockets/baileys')).default
-import pkg from 'google-libphonenumber'
-const { PhoneNumberUtil } = pkg
-const phoneUtil = PhoneNumberUtil.getInstance()
-const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser} = await import('@whiskeysockets/baileys')
-import readline, { createInterface } from 'readline'
-import NodeCache from 'node-cache'
-const {CONNECTING} = ws
-const {chain} = lodash
-const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
+
+// IMPORTS ESENCIALES PARA EL ARRANQUE BÁSICO
+import path, { join, dirname } from 'path';
+import {makeWASocket, protoType, serialize} from './lib/simple.js';
+import store from './lib/store.js';
+const PORT = process.env.PORT || process.env.SERVER_PORT || 3000;
 
 //const yuw = dirname(fileURLToPath(import.meta.url))
 //let require = createRequire(megu)
 
 
-console.log(chalk.bold.redBright(`\n⇏ 𝗦𝗘 𝗘𝗦𝗧𝗔 𝗜𝗡𝗜𝗖𝗜𝗔𝗡𝗗𝗢 𝗡𝗔𝗚𝗜𝗕𝗢𝗧 𝗘𝗦𝗣𝗘𝗥𝗘 ⇍\n`))
+
+console.log('\n⇏ SE ESTA INICIANDO HINATA-BOT-MD ESPERE ⇍\n');
 console.log('HINATA-BOT-MD');
 
-say(`NagiBotV2 by Brayan330`, {
-font: 'console',
-align: 'center',
-colors: ['blueBright']
-})
 
-protoType()
-serialize()
+
+
+protoType();
+serialize();
 
 global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') {
 return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString();
@@ -199,7 +175,7 @@ const {connection, lastDisconnect, isNewLogin} = update;
 global.stopped = connection;
 if (isNewLogin) conn.isInit = true;
 const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
-if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
+if (code && code !== DisconnectReason.loggedOut && (!conn?.ws || !conn?.ws.socket)) {
 await global.reloadHandler(true).catch(console.error);
 global.timestamp.connect = new Date;
 }
@@ -250,7 +226,7 @@ console.error(e);
 if (restatConn) {
 const oldChats = global.conn.chats
 try {
-global.conn.ws.close()
+	if (global.conn.ws && typeof global.conn.ws.close === 'function') global.conn.ws.close()
 } catch { }
 conn.ev.removeAllListeners()
 global.conn = makeWASocket(connectionOptions, {chats: oldChats})

@@ -1,5 +1,5 @@
-import fetch from 'node-fetch';
-
+// Eliminado: import fetch from 'node-fetch';
+// Archivo eliminado por incompatibilidad
 var handler = async (m, { text, usedPrefix, command }) => {
     if (!text) return conn.reply(m.chat, `🖼️ *Por favor ingresa una descripción*\n\nEjemplo: ${usedPrefix + command} un gato`, m, rcanal);
 

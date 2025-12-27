@@ -1,6 +1,6 @@
 import { randomBytes } from "crypto"
-import axios from "axios"
-
+// Eliminado: import axios from "axios"
+// Archivo eliminado por incompatibilidad
 let handler = async (m, { conn, text }) => {
     if (!text) throw `${emoji} ¿Cómo puedo ayudarte hoy?`;
     try {

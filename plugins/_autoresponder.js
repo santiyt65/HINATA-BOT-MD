@@ -1,6 +1,6 @@
-import axios from 'axios'
+// Eliminado: import axios from 'axios'
 import { sticker } from '../lib/sticker.js'
-
+// Archivo eliminado por incompatibilidad
 let handler = m => m
 handler.all = async function (m, {conn}) {
 let user = global.db.data.users[m.sender]

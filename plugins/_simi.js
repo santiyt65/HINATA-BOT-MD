@@ -1,8 +1,8 @@
-import translate from '@vitalets/google-translate-api';
-import axios from 'axios';
-import fetch from 'node-fetch';
+// Eliminado: import translate from '@vitalets/google-translate-api';
+// Eliminado: import axios from 'axios';
+// Eliminado: import fetch from 'node-fetch';
 const handler = (m) => m;
-
+// Archivo eliminado por incompatibilidad
 handler.before = async (m) => {
   const chat = global.db.data.chats[m.chat];
   if (chat.simi) {

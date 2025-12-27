@@ -1,6 +1,6 @@
 import { WAMessageStubType } from '@whiskeysockets/baileys'
-import fetch from 'node-fetch'
-
+// Eliminado: import fetch from 'node-fetch'
+// Archivo eliminado por incompatibilidad
 export async function before(m, { conn, participants, groupMetadata }) {
   if (!m.messageStubType || !m.isGroup) return true
 
